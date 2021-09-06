@@ -1,12 +1,12 @@
 import React from 'react';
-import ButtonSection from './button-section'
+import ButtonSection from './button-section';
 
 export default {
   title: 'Organisms/Button Section',
   component: ButtonSection,
   parameters: {
-    layout: 'centered',
-  }
+    layout: 'fullscreen',
+  },
 };
 
 // eslint-disable-next-line react/jsx-props-no-spreading

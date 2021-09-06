@@ -1,5 +1,4 @@
-src/stories
-src
+
 postcss.config.js
 craco.config.js
 .storybook

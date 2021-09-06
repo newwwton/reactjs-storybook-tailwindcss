@@ -13,3 +13,7 @@
 .logo-main {
     @apply bg-white flex items-center p-2 rounded-lg;
 }
+
+.logo-main-image {
+    @apply w-6 h-6;
+}

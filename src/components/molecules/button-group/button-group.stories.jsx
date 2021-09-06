@@ -6,7 +6,7 @@ export default {
   component: ButtonGroup,
   parameters: {
     layout: 'centered',
-  }
+  },
 };
 
 // eslint-disable-next-line react/jsx-props-no-spreading

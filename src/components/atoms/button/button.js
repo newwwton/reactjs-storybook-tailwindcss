@@ -6,7 +6,6 @@ import storybook from '../../../assets/svg/storybook.svg';
 import tailwind from '../../../assets/svg/tailwind.svg';
 
 function button(props) {
-
   // sizeMap for sm, md, lg, xl
   const sizeMap = {
     sm: {
@@ -23,8 +22,8 @@ function button(props) {
     },
     xl: {
       width: '48px',
-      height: '48px'
-    }
+      height: '48px',
+    },
   };
 
   // iconMap for react, newwwton, storybook, tailwind
@@ -32,14 +31,14 @@ function button(props) {
     react,
     newwwton,
     storybook,
-    tailwind
-  }
+    tailwind,
+  };
 
   return (
-    <a className="btn" target="_blank" href={props.href}>
-      <img src={iconMap[props.icon]} alt="logo" height={sizeMap[props.size].height} width={sizeMap[props.size].width} />
+    <a className="btn" target="_blank" href={props.href} rel="noreferrer">
+      <img className="logo-main-image" src={iconMap[props.icon]} alt="logo" height={sizeMap[props.size].height} width={sizeMap[props.size].width} />
       <div>
-          {props.name}
+        {props.name}
       </div>
     </a>
   );

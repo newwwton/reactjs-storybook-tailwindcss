@@ -18,6 +18,7 @@ module.exports = {
     'react',
   ],
   rules: {
+    'css.lint.unknownAtRules': 0,
     'no-underscore-dangle': 'off',
     'linebreak-style': 'off',
     'import/no-named-as-default': 'off',

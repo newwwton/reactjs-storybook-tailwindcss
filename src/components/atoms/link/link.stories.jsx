@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '../link/link';
+import Link from './link';
 
 export default {
   title: 'Atoms/Link',
@@ -9,8 +9,8 @@ export default {
   },
   argTypes: {
     href: String,
-    title: String
-  }
+    title: String,
+  },
 };
 
 // eslint-disable-next-line react/jsx-props-no-spreading
@@ -18,6 +18,6 @@ const Template = (args) => <Link {...args} />;
 
 export const NewwwtonLink = Template.bind({});
 NewwwtonLink.args = {
-    href: 'https://newwwton.com',
-    title: 'Newwwton'
+  href: 'https://newwwton.com',
+  title: 'Newwwton',
 };

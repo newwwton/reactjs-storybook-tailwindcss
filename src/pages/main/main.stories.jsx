@@ -4,6 +4,9 @@ import Main from './main';
 export default {
   title: 'Pages/Main',
   component: Main,
+  parameters: {
+    layout: 'fullscreen',
+  },
 };
 
 // eslint-disable-next-line react/jsx-props-no-spreading

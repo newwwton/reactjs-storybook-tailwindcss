@@ -5,12 +5,11 @@ import ButtonSection from '../../components/organisms/button-section/button-sect
 import Footer from '../../components/organisms/footer/footer';
 
 function Main() {
-
   return (
     <div>
-        <Hero title="React + Tailwind + Storybook"/>
-        <ButtonSection/>
-        <Footer />
+      <Hero title="React + Tailwind + Storybook" />
+      <ButtonSection />
+      <Footer />
     </div>
   );
 }
