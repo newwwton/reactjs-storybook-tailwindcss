@@ -36,7 +36,7 @@ function button(props) {
 
   return (
     <a className="btn" target="_blank" href={props.href} rel="noreferrer">
-      <img className="logo-main-image" src={iconMap[props.icon]} alt="logo" height={sizeMap[props.size].height} width={sizeMap[props.size].width} />
+      <img style={{ height: sizeMap[props.size].height, width: sizeMap[props.size].width }} src={iconMap[props.icon]} alt="logo" height={sizeMap[props.size].height} width={sizeMap[props.size].width} />
       <div>
         {props.name}
       </div>
