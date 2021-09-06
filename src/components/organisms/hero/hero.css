@@ -1,0 +1,15 @@
+.hero {
+    @apply p-24 flex flex-col items-center space-y-24 bg-red-50;
+}
+
+.title {
+    @apply text-gray-700 text-5xl font-black;
+}
+
+.logo {
+    @apply flex space-x-4 items-center;
+}
+
+.logo-main {
+    @apply bg-white flex items-center p-2 rounded-lg;
+}

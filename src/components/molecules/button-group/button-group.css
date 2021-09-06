@@ -1,0 +1,3 @@
+.btn-group {
+    @apply flex space-x-12 items-center;
+}

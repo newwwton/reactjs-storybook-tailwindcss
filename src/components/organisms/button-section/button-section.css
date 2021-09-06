@@ -1,0 +1,11 @@
+.btn-section {
+    @apply p-24;
+}
+
+.btn-inner-section {
+    @apply flex flex-col space-y-7 items-center;
+}
+
+.btn-text {
+    @apply text-gray-700 text-xl font-bold;
+}
